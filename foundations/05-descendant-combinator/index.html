@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!--
+        This uses class selectors
+    -->
     <div class="container">
       <p class="text">This should be styled.</p>
     </div>
@@ -16,6 +19,38 @@
     <div class="container">
       <p class="text">This should be styled.</p>
       <p class="text">This should be styled.</p>
+    </div>
+    <p style="font:32px; font-weight:bold;">
+      This text is just to seperate the two types of selectors.
+      This text will not be styled as the div tag or container tag
+      does not procedd or come before this p tag.
+    </p>
+    <!--
+        This uses type selectors
+    -->
+    <div>
+      <p>This should be styled.</p>
+    </div>
+    <p>This should be unstyled.</p>
+    <p>This should be unstyled.</p>
+    <div>
+      <p>This should be styled.</p>
+      <p>This should be styled.</p>
+    </div>
+
+    <p style="font:32px; font-weight:bold;">
+      This text is just to seperate the different examples.
+      This text will not be styled as the div tag or container tag
+      does not procedd or come before this p tag.
+    </p>
+    <div class="div">
+      <p class="p">This should be styled.</p>
+    </div>
+    <p class="p">This should be unstyled.</p>
+    <p class="p">This should be unstyled.</p>
+    <div class="div">
+      <p class="p">This should be styled.</p>
+      <p class="p">This should be styled.</p>
     </div>
   </body>
 </html>
