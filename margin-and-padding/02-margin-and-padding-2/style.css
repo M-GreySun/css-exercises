@@ -7,21 +7,47 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  /*Change the Below*/
+  padding:8px;          /*Give white border*/
 }
 
 .title {
   background: #e3f4ff;
+  /*Change the Below*/
+  font-size:16px;
+  padding:8px;
+  margin-bottom:8px;    /*Ensures that there is 8px of padding between the title and content*/
 }
 
 .content {
   background: #e3f4ff;
+  /*Change the Below*/
+  margin-bottom:8px;    /*Ensures that there is 8px of padding between the content and button container*/
+
+  padding-top:16px;     /*Ensure the content section has the right padding*/
+  padding-bottom:16px;
+  padding-right:8px;
+  padding-left:8px;
+  
 }
 
 .button-container {
   background: #e3f4ff;
+  /*Change the Below*/
+  text-align: center;
+  padding:8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  /*Change the Below*/
+  display:block;      /*Ensure the button is on its own line*/ 
+  margin:auto;
+
+  padding-top:8px;
+  padding-bottom:8px;
+  padding-right:24px;
+  padding-left:24px;
+  
 }
