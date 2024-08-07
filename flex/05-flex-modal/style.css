@@ -93,13 +93,7 @@ button.cancel {
 .header{
   font-weight: bold;
   display:flex;
-  justify-content: space-between;
-  
-}
-.left{
-  font-size: large;
-  display:flex;
-  flex-direction: row;
+  justify-content: space-between; 
 }
 
 .text{
