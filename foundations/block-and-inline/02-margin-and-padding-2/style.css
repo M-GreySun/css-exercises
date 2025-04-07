@@ -40,7 +40,7 @@ button {
   border: 1px solid #eee;
   /*Change Me*/
   display:block;
-  margin: auto;
+  margin: 0 auto;
   padding: 8px 24px;
 }
 
@@ -55,3 +55,32 @@ button {
   - The Big Button is centered on its own line.
 - The Big Button has 24px space on the sides, and 8px on top and bottom.
 */
+
+
+
+
+.card {
+  padding: 8px;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.content {
+  margin-bottom: 8px;
+  padding: 16px 8px;
+}
+
+.button-container {
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+}
