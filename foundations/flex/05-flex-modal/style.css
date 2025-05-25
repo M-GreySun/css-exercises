@@ -104,23 +104,24 @@ Oringinal solution
 .modal{
   display: flex;
   padding: 16px;
+  gap:16px;
 }
 
 .header{
   display: flex;
   font-size: 18px;
-  font-weight: bold;
-  justify-content: center;
+  font-weight: 700;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  align-items: center;
 }
-.close-button{
-  margin-left: auto;
-}
+
 
 .icon{
   flex-shrink: 0;
-  margin-right: 8px;
 }
 .text{
-  margin: 8px 0px;
+ 
+  margin-bottom: 16px;
 }
 
