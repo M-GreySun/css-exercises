@@ -68,7 +68,6 @@ a{
 .content{
   display: flex;
   flex: 1;
-  
 }
 
 .sidebar{
@@ -76,4 +75,18 @@ a{
   font-size: 24px;
   flex-shrink: 0;
   padding: 16px 0;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.card{
+  padding: 48px;
+  display: flex;
+  width: 300px;
+  height: 100px;
+  align-items: center;
 }
